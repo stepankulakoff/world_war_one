@@ -1,0 +1,261 @@
+@prefix : <http://example.org/ww1#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+############################
+# Classes
+############################
+
+:Person a owl:Class ;
+    rdfs:label "Person" ;
+    rdfs:comment "An individual involved in historical events." .
+
+:MilitaryPersonnel a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Military Personnel" ;
+    rdfs:comment "Individuals serving in the military." .
+
+:PoliticalLeader a owl:Class ;
+    rdfs:subClassOf :Person ;
+    rdfs:label "Political Leader" ;
+    rdfs:comment "A key political figure." .
+
+:Country a owl:Class ;
+    rdfs:label "Country" ;
+    rdfs:comment "A sovereign nation." .
+
+:MilitaryEvent a owl:Class ;
+    rdfs:label "Military Event" ;
+    rdfs:comment "Specific military actions." .
+
+:PeaceTreaty a owl:Class ;
+    rdfs:label "Peace Treaty" ;
+    rdfs:comment "Treaty ending hostilities." .
+
+:MilitaryUnit a owl:Class ;
+    rdfs:label "Military Unit" ;
+    rdfs:comment "Organized military group." .
+
+:MilitaryEquipment a owl:Class ;
+    rdfs:label "Military Equipment" ;
+    rdfs:comment "Weapons or military gear." .
+
+:MilitaryRank a owl:Class ;
+    rdfs:label "Military Rank" ;
+    rdfs:comment "Rank within military hierarchy." .
+
+:MilitaryStrategy a owl:Class ;
+    rdfs:label "Military Strategy" ;
+    rdfs:comment "Tactics used in military operations." .
+
+:Ideology a owl:Class ;
+    rdfs:label "Ideology" ;
+    rdfs:comment "Set of ideas influencing politics." .
+
+:Location a owl:Class ;
+    rdfs:label "Location" ;
+    rdfs:comment "Geographical places." .
+
+:Technology a owl:Class ;
+    rdfs:label "Technology" ;
+    rdfs:comment "Technological developments." .
+
+:PoliticalAlliance a owl:Class ;
+    rdfs:label "Political Alliance" ;
+    rdfs:comment "A formal alliance of countries." .
+
+:PoliticalEvent a owl:Class ;
+    rdfs:label "Political Event" ;
+    rdfs:comment "A political act or occurrence that influences events." .
+
+############################
+# Object Properties
+############################
+
+### Command and Structure
+:hasRank a owl:ObjectProperty ;
+    rdfs:domain :MilitaryPersonnel ;
+    rdfs:range :MilitaryRank ;
+    rdfs:label "has rank" .
+
+:commandsUnit a owl:ObjectProperty ;
+    rdfs:domain :MilitaryPersonnel ;
+    rdfs:range :MilitaryUnit ;
+    rdfs:label "commands unit" .
+
+:ledBy a owl:ObjectProperty ;
+    rdfs:domain :MilitaryUnit ;
+    rdfs:range :MilitaryPersonnel ;
+    rdfs:label "led by" .
+
+:subordinateOf a owl:ObjectProperty ;
+    rdfs:domain :MilitaryPersonnel ;
+    rdfs:range :MilitaryPersonnel ;
+    rdfs:label "subordinate of" .
+
+:representsCountry a owl:ObjectProperty ;
+    rdfs:domain :PoliticalLeader ;
+    rdfs:range :Country ;
+    rdfs:label "represents country" .
+
+### Participation and Events
+:participatedIn a owl:ObjectProperty ;
+    rdfs:domain :MilitaryUnit ;
+    rdfs:range :MilitaryEvent ;
+    rdfs:label "unit participated in event" .
+
+:personParticipatedIn a owl:ObjectProperty ;
+    rdfs:domain :MilitaryPersonnel ;
+    rdfs:range :MilitaryEvent ;
+    rdfs:label "person participated in event" .
+
+:usedEquipment a owl:ObjectProperty ;
+    rdfs:domain :MilitaryUnit ;
+    rdfs:range :MilitaryEquipment ;
+    rdfs:label "unit used equipment" .
+
+:personUsedEquipment a owl:ObjectProperty ;
+    rdfs:domain :MilitaryPersonnel ;
+    rdfs:range :MilitaryEquipment ;
+    rdfs:label "person used equipment" .
+
+:eventEmployedStrategy a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :MilitaryStrategy ;
+    rdfs:label "event employed strategy" .
+
+:unitEmployedStrategy a owl:ObjectProperty ;
+    rdfs:domain :MilitaryUnit ;
+    rdfs:range :MilitaryStrategy ;
+    rdfs:label "unit employed strategy" .
+
+### Locations and Deployment
+:eventLocatedIn a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :Location ;
+    rdfs:label "event located in" .
+
+:treatyLocatedIn a owl:ObjectProperty ;
+    rdfs:domain :PeaceTreaty ;
+    rdfs:range :Location ;
+    rdfs:label "treaty located in" .
+
+:unitLocatedIn a owl:ObjectProperty ;
+    rdfs:domain :MilitaryUnit ;
+    rdfs:range :Location ;
+    rdfs:label "unit located in" .
+
+:hasFrontline a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :Location ;
+    rdfs:label "has frontline at" .
+
+:battleOccurredAt a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :Location ;
+    rdfs:label "battle occurred at" .
+
+### Diplomacy and Political Relations
+:signedTreaty a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :PeaceTreaty ;
+    rdfs:label "signed treaty" .
+
+:isPartOfAlliance a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :PoliticalAlliance ;
+    rdfs:label "is part of alliance" .
+
+:memberOfAlliance a owl:ObjectProperty ;
+    rdfs:domain :PoliticalLeader ;
+    rdfs:range :PoliticalAlliance ;
+    rdfs:label "member of alliance" .
+
+:alliedWith a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Country ;
+    rdfs:label "allied with" .
+
+:enemyOf a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Country ;
+    rdfs:label "enemy of" .
+
+:declaredWarOn a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Country ;
+    rdfs:label "declared war on" .
+
+:negotiatedBy a owl:ObjectProperty ;
+    rdfs:domain :PeaceTreaty ;
+    rdfs:range :PoliticalLeader ;
+    rdfs:label "negotiated by" .
+
+### Ideological and Technological
+:hasIdeology a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Ideology ;
+    rdfs:label "has ideology" .
+
+:leaderHasIdeology a owl:ObjectProperty ;
+    rdfs:domain :PoliticalLeader ;
+    rdfs:range :Ideology ;
+    rdfs:label "leader has ideology" .
+
+:developedTechnology a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Technology ;
+    rdfs:label "developed technology" .
+
+:inventedTechnology a owl:ObjectProperty ;
+    rdfs:domain :Person ;
+    rdfs:range :Technology ;
+    rdfs:label "invented technology" .
+
+:usedInEvent a owl:ObjectProperty ;
+    rdfs:domain :Technology ;
+    rdfs:range :MilitaryEvent ;
+    rdfs:label "used in event" .
+
+### Causal and Historical
+:causedBy a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :PoliticalEvent ;
+    rdfs:label "caused by" .
+
+:resultedInTreaty a owl:ObjectProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range :PeaceTreaty ;
+    rdfs:label "resulted in treaty" .
+
+:influencedBy a owl:ObjectProperty ;
+    rdfs:domain :Country ;
+    rdfs:range :Ideology ;
+    rdfs:label "influenced by" .
+
+############################
+# Datatype Properties
+############################
+
+:dateOfBirth a owl:DatatypeProperty ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:date ;
+    rdfs:label "date of birth" .
+
+:dateOfDeath a owl:DatatypeProperty ;
+    rdfs:domain :Person ;
+    rdfs:range xsd:date ;
+    rdfs:label "date of death" .
+
+:dateOfEvent a owl:DatatypeProperty ;
+    rdfs:domain :MilitaryEvent ;
+    rdfs:range xsd:date ;
+    rdfs:label "date of event" .
+
+:dateOfTreaty a owl:DatatypeProperty ;
+    rdfs:domain :PeaceTreaty ;
+    rdfs:range xsd:date ;
+    rdfs:label "date of treaty" .
+
