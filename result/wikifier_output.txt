@@ -1,0 +1,909 @@
+# Entities from chunk_001.txt
+Treaty of Brest-Litovsk: Agent
+Soviet Union: Place, Location, PopulatedPlace, Country
+Russia: Place, Location, PopulatedPlace, Country
+Bolsheviks: Agent, Organisation, PoliticalParty
+Caucasus: Settlement, Country
+Ukraine: Place, Location, PopulatedPlace, MusicalArtist, Country
+
+LLM best matches
+Soviet Union->Country  
+Russia->Country  
+Bolsheviks->PoliticalParty  
+Ukraine->Country
+
+# Entities from chunk_002.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+World War II: SocietalEvent, MilitaryPerson, Event, MilitaryConflict
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Ferdinand Porsche: Person, Animal, Engineer, Eukaryote, Species
+Battle of Caporetto: SocietalEvent, Event, MilitaryConflict
+Turkey: Person, Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Germany->Country  
+World War II->MilitaryConflict  
+Ferdinand Porsche->Engineer  
+Battle of Caporetto->MilitaryConflict  
+Turkey->Country
+
+# Entities from chunk_003.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+Wilhelm II, German Emperor: Person, Animal, Eukaryote, Species, Royalty
+
+LLM best matches
+Germany->Country  
+Wilhelm II, German Emperor->Royalty
+
+# Entities from chunk_004.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+Pan-German League: Person
+
+LLM best matches
+Germany->Country
+
+# Entities from chunk_005.txt
+World War I: SocietalEvent, Event, MilitaryConflict
+Morocco: Place, Location, PopulatedPlace, MusicalArtist, Country
+Balkans: Place, Location, Island, PopulatedPlace, Country
+
+LLM best matches
+World War I->MilitaryConflict  
+Morocco->Country  
+Balkans->Location
+
+# Entities from chunk_006.txt
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Ottoman Empire->Country
+
+# Entities from chunk_007.txt
+Russia: Place, Location, PopulatedPlace, Country
+Istanbul: Place, Location, PopulatedPlace, City, Settlement, Town
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+Russia->Country  
+Istanbul->City  
+Austria-Hungary->Country
+
+# Entities from chunk_008.txt
+Russia: Place, Location, PopulatedPlace, Country
+Theobald von Bethmann Hollweg: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+Russia->Country  
+Theobald von Bethmann Hollweg->Politician
+
+# Entities from chunk_009.txt
+Pyotr Stolypin: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Russia: Place, Location, PopulatedPlace, Country
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+Pyotr Stolypin->Politician  
+Russia->Country  
+Austria-Hungary->Country
+
+# Entities from chunk_010.txt
+Vienna: Place, Location, PopulatedPlace, City, Settlement
+Assassination of Archduke Franz Ferdinand: 
+
+LLM best matches
+Vienna->City
+
+# Entities from chunk_011.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+Berlin: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Germany->Country  
+Berlin->City
+
+# Entities from chunk_012.txt
+Russia: Place, Location, PopulatedPlace, Country
+Franco-Prussian War: SocietalEvent, Event, MilitaryConflict
+
+LLM best matches
+Russia->Country  
+Franco-Prussian War->MilitaryConflict
+
+# Entities from chunk_013.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+France: Place, Location, PopulatedPlace, Country
+Belgium: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Germany->Country  
+France->Country  
+Belgium->Country
+
+# Entities from chunk_014.txt
+Max Weber: Person, Academic, Animal, Eukaryote, Species
+Adolf Hitler: Person, Animal, Eukaryote, Species, Politician, Country
+Max Liebermann: Person, Animal, Eukaryote, Species, Artist
+Kurt Riezler: Person, Animal, Eukaryote, Species
+Frankfurt School: School
+Karl Popper: Person, Animal, Eukaryote, Species, Philosopher
+Alfred Einstein: Person, Animal, Eukaryote, Species
+
+LLM best matches
+Max Weber->Academic  
+Adolf Hitler->Politician  
+Max Liebermann->Artist  
+Frankfurt School->School  
+Karl Popper->Philosopher
+
+# Entities from chunk_015.txt
+Buckingham Palace: Building
+Louis-Ferdinand Céline: 
+Edward Grey, 1st Viscount Grey of Fallodon: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+Buckingham Palace->Building  
+Edward Grey, 1st Viscount Grey of Fallodon->Politician
+
+# Entities from chunk_016.txt
+Stavka: MilitaryUnit
+Causes of World War I: MilitaryConflict
+Belgium: Place, Location, PopulatedPlace, Country
+Middle Ages: MilitaryConflict
+Liège: 
+Antwerp: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Stavka->MilitaryUnit  
+Belgium->Country  
+Antwerp->City
+
+# Entities from chunk_017.txt
+Cavalry: Person, MilitaryUnit
+Crimean War: SocietalEvent, Event, MilitaryConflict
+American Civil War: SocietalEvent, MilitaryPerson, Event, MilitaryConflict
+Schlieffen Plan: 
+
+LLM best matches
+Cavalry->MilitaryUnit  
+Crimean War->MilitaryConflict  
+American Civil War->MilitaryConflict
+
+# Entities from chunk_018.txt
+Liège: 
+Belgium: Place, Location, PopulatedPlace, Country
+Thionville: Place, Location, PopulatedPlace, Settlement
+Antwerp: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Belgium->Country  
+Antwerp->City
+
+# Entities from chunk_019.txt
+Joseph Joffre: Person, Animal, Eukaryote, Species, MilitaryPerson, Politician
+Plan XVII: 
+John French, 1st Earl of Ypres: Person, Animal, Eukaryote, Species, MilitaryPerson
+
+LLM best matches
+Joseph Joffre->MilitaryPerson  
+John French, 1st Earl of Ypres->MilitaryPerson
+
+# Entities from chunk_020.txt
+East Prussia: Place, Location, Region, PopulatedPlace, AdministrativeRegion, Settlement, Country
+Paris: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+East Prussia->Region  
+Paris->City
+
+# Entities from chunk_021.txt
+Aisne: Place, Location, PopulatedPlace, Settlement
+East Prussia: Place, Location, Region, PopulatedPlace, AdministrativeRegion, Settlement, Country
+Königsberg: 
+
+LLM best matches
+Aisne->Place  
+East Prussia->Region
+
+# Entities from chunk_022.txt
+2nd Army (Russian Empire): Agent, MilitaryUnit, Organisation
+Erich Ludendorff: Person, Animal, Eukaryote, Species, MilitaryPerson, Politician
+
+LLM best matches
+2nd Army (Russian Empire)->MilitaryUnit  
+Erich Ludendorff->MilitaryPerson
+
+# Entities from chunk_023.txt
+Poland: Place, Location, PopulatedPlace, MusicalArtist, Country
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+Franz Conrad von Hötzendorf: 
+East Prussia: Place, Location, Region, PopulatedPlace, AdministrativeRegion, Settlement, Country
+
+LLM best matches
+Poland->Country  
+Austria-Hungary->Country  
+East Prussia->Region
+
+# Entities from chunk_024.txt
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+Austria-Hungary->Country
+
+# Entities from chunk_025.txt
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+Erich von Falkenhayn: Person, Animal, Eukaryote, Species, MilitaryPerson, Politician
+
+LLM best matches
+Austria-Hungary->Country  
+Erich von Falkenhayn->MilitaryPerson
+
+# Entities from chunk_026.txt
+Aisne: Place, Location, PopulatedPlace, Settlement
+Enfilade and defilade: Automobile
+Ypres: Place, Location, PopulatedPlace, Settlement
+
+LLM best matches
+Aisne->Place  
+Ypres->Place
+
+# Entities from chunk_027.txt
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+Austria-Hungary->Country
+
+# Entities from chunk_028.txt
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+Turkey: Person, Place, Location, PopulatedPlace, Country
+Enver Pasha: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+Ottoman Empire->Country  
+Turkey->Country  
+Enver Pasha->Politician
+
+# Entities from chunk_029.txt
+Black Sea raid: SocietalEvent, Event, MilitaryConflict
+Turkey: Person, Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Black Sea raid->MilitaryConflict  
+Turkey->Country
+
+# Entities from chunk_030.txt
+Napoleon: Person, Animal, Eukaryote, Species, Royalty
+Royal Navy: Agent, MilitaryUnit, Organisation, Country
+Peninsular War: SocietalEvent, Event, MilitaryConflict
+Winston Churchill: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+Napoleon->Royalty  
+Royal Navy->MilitaryUnit  
+Peninsular War->MilitaryConflict  
+Winston Churchill->Politician
+
+# Entities from chunk_031.txt
+Maurice Hankey, 1st Baron Hankey: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Germany: Person, Place, Location, PopulatedPlace, Country
+Royal Navy: Agent, MilitaryUnit, Organisation, Country
+
+LLM best matches
+Maurice Hankey, 1st Baron Hankey->Politician  
+Germany->Country  
+Royal Navy->MilitaryUnit
+
+# Entities from chunk_032.txt
+Sugar beet: Eukaryote, Species, CultivatedVariety, Plant
+Cologne: Place, Location, PopulatedPlace, City, Settlement
+Russia: Place, Location, PopulatedPlace, Country
+Frederick the Great: Person, Animal, Eukaryote, Species, Royalty
+Conscription: 
+Turkey: Person, Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Sugar beet->Plant  
+Cologne->City  
+Russia->Country  
+Frederick the Great->Royalty  
+Turkey->Country
+
+# Entities from chunk_033.txt
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+Rupert Brooke: Person, Animal, Eukaryote, Species
+Battleship: MilitaryUnit, Ship
+Dardanelles: Place, Location, NaturalPlace, BodyOfWater
+
+LLM best matches
+Ottoman Empire->Country  
+Rupert Brooke->Person  
+Battleship->Ship  
+Dardanelles->BodyOfWater
+
+# Entities from chunk_034.txt
+Istanbul: Place, Location, PopulatedPlace, City, Settlement, Town
+Boghos Nubar: Person, Animal, Eukaryote, Species
+Gallipoli: MilitaryConflict
+Baghdad: Place, Location, PopulatedPlace, City, Settlement
+Kut: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Istanbul->City  
+Boghos Nubar->Person  
+Baghdad->City
+
+# Entities from chunk_035.txt
+Erich von Falkenhayn: Person, Animal, Eukaryote, Species, MilitaryPerson, Politician
+Russia: Place, Location, PopulatedPlace, Country
+Franz von Papen: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+Erich von Falkenhayn->MilitaryPerson  
+Russia->Country  
+Franz von Papen->Politician
+
+# Entities from chunk_036.txt
+The Hague: Place, Location, PopulatedPlace, City, Settlement
+Paris: Place, Location, PopulatedPlace, City, Settlement
+British Expeditionary Force (World War I): Agent, MilitaryUnit, Organisation
+Veld: Person
+
+LLM best matches
+The Hague->City  
+Paris->City  
+British Expeditionary Force (World War I)->MilitaryUnit
+
+# Entities from chunk_037.txt
+Douglas Haig, 1st Earl Haig: Person, Animal, Eukaryote, Species, MilitaryPerson
+
+LLM best matches
+Douglas Haig, 1st Earl Haig->MilitaryPerson
+
+# Entities from chunk_038.txt
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+Prague: Place, Location, PopulatedPlace, City, Settlement
+Second Battle of the Masurian Lakes: SocietalEvent, Event, MilitaryConflict
+Masuria: Place, Location, Region, PopulatedPlace, AdministrativeRegion, Settlement
+
+LLM best matches
+Austria-Hungary->Country  
+Prague->City  
+Second Battle of the Masurian Lakes->MilitaryConflict  
+Masuria->Region
+
+# Entities from chunk_039.txt
+Italy: Person, Place, Location, PopulatedPlace, Country
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+Russia: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Italy->Country  
+Austria-Hungary->Country  
+Russia->Country
+
+# Entities from chunk_040.txt
+East Prussia: Place, Location, Region, PopulatedPlace, AdministrativeRegion, Settlement, Country
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+East Prussia->Region  
+Austria-Hungary->Country
+
+# Entities from chunk_041.txt
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Poland: Place, Location, PopulatedPlace, MusicalArtist, Country
+
+LLM best matches
+Central Powers->Country  
+Poland->Country
+
+# Entities from chunk_042.txt
+Warsaw: Place, Location, PopulatedPlace, City, Settlement
+Lithuania: Place, Location, PopulatedPlace, MusicalArtist, Country
+Stavka: MilitaryUnit
+
+LLM best matches
+Warsaw->City  
+Lithuania->Country  
+Stavka->MilitaryUnit
+
+# Entities from chunk_043.txt
+Serbia: Place, Location, PopulatedPlace, Country
+Balkan Wars: SocietalEvent, Event, MilitaryConflict
+Istanbul: Place, Location, PopulatedPlace, City, Settlement, Town
+
+LLM best matches
+Serbia->Country  
+Balkan Wars->MilitaryConflict  
+Istanbul->City
+
+# Entities from chunk_044.txt
+Battle of the Somme: SocietalEvent, Event, MilitaryConflict
+France: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Battle of the Somme->MilitaryConflict  
+France->Country
+
+# Entities from chunk_045.txt
+Douaumont: Place, Location, PopulatedPlace, Settlement
+Meuse: Place, Location, NaturalPlace, Stream, River, BodyOfWater
+Philippe Pétain: 
+
+LLM best matches
+Douaumont->Place  
+Meuse->River
+
+# Entities from chunk_046.txt
+Italy: Person, Place, Location, PopulatedPlace, Country
+Russia: Place, Location, PopulatedPlace, Country
+Stavka: MilitaryUnit
+
+LLM best matches
+Italy->Country  
+Russia->Country  
+Stavka->MilitaryUnit
+
+# Entities from chunk_047.txt
+Grand Fleet: Agent, MilitaryUnit, Organisation, Train
+Scapa Flow: Organisation
+High Seas Fleet: Agent, MilitaryUnit, Organisation, Train
+
+LLM best matches
+Grand Fleet->MilitaryUnit  
+High Seas Fleet->MilitaryUnit
+
+# Entities from chunk_048.txt
+Douglas Haig, 1st Earl Haig: Person, Animal, Eukaryote, Species, MilitaryPerson
+Picardy: Place, Location, Region, PopulatedPlace, AdministrativeRegion
+Somme (department): Place, Location, PopulatedPlace, Settlement
+Barrage (artillery): Software
+
+LLM best matches
+Douglas Haig, 1st Earl Haig->MilitaryPerson  
+Picardy->Region  
+Somme (department)->Location
+
+# Entities from chunk_049.txt
+Shell (projectile): Weapon
+Barbed wire: Company
+New College, Oxford: Agent, EducationalInstitution, College, Organisation, University
+
+LLM best matches
+Shell (projectile)->Weapon  
+New College, Oxford->EducationalInstitution
+
+# Entities from chunk_050.txt
+H. G. Wells: 
+C. S. Forester: 
+
+LLM best matches
+H. G. Wells->Person  
+C. S. Forester->Person
+
+# Entities from chunk_051.txt
+Italy: Person, Place, Location, PopulatedPlace, Country
+Entrenching tool: 
+France: Place, Location, PopulatedPlace, Country
+Enfilade and defilade: Automobile
+
+LLM best matches
+Italy->Country  
+France->Country
+
+# Entities from chunk_052.txt
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+Austria-Hungary->Country
+
+# Entities from chunk_053.txt
+Thessaloniki: Place, Location, PopulatedPlace, City, Settlement
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Danube: Company, Place, Location, NaturalPlace, Stream, River, BodyOfWater
+
+LLM best matches
+Thessaloniki->City  
+Central Powers->Country  
+Danube->River
+
+# Entities from chunk_054.txt
+David Lloyd George: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+
+LLM best matches
+David Lloyd George->Politician
+
+# Entities from chunk_055.txt
+Woodrow Wilson: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Hindenburg Programme: 
+Robert Nivelle: Person, Animal, Eukaryote, Species, MilitaryPerson, Politician
+
+LLM best matches
+Woodrow Wilson->Politician  
+Robert Nivelle->MilitaryPerson
+
+# Entities from chunk_056.txt
+Submarine: Work, Film, Ship, MusicGenre
+Cruiser rules: 
+
+LLM best matches
+Submarine->Ship
+
+# Entities from chunk_057.txt
+Gustav von Schmoller: Person, Animal, Economist, Eukaryote, Scientist, Species
+Unrestricted submarine warfare: Ship
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Belgium: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Gustav von Schmoller->Economist  
+Belgium->Country
+
+# Entities from chunk_058.txt
+Cruiser rules: 
+Ernest Rutherford: Person, Scientist
+
+LLM best matches
+Ernest Rutherford->Scientist
+
+# Entities from chunk_059.txt
+Berlin: Place, Location, PopulatedPlace, City, Settlement
+Zimmermann Telegram: Agent
+Arthur Zimmermann: Person, Animal, Eukaryote, Species, Politician
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+
+LLM best matches
+Berlin->City  
+Arthur Zimmermann->Politician
+
+# Entities from chunk_060.txt
+Douglas Haig, 1st Earl Haig: Person, Animal, Eukaryote, Species, MilitaryPerson
+
+LLM best matches
+Douglas Haig, 1st Earl Haig->MilitaryPerson
+
+# Entities from chunk_061.txt
+Chemin des Dames: MilitaryConflict
+
+LLM best matches
+Arras->Place  
+Lloyd George->Person
+
+# Entities from chunk_062.txt
+World War I: SocietalEvent, Event, MilitaryConflict
+Philippe Pétain: 
+
+LLM best matches
+World War I->MilitaryConflict
+
+# Entities from chunk_063.txt
+Russia: Place, Location, PopulatedPlace, Country
+Nicholas II of Russia: Person, Animal, Eukaryote, Species, Royalty
+
+LLM best matches
+Russia->Country  
+Nicholas II of Russia->Royalty
+
+# Entities from chunk_064.txt
+Intelligentsia: 
+Store of value: Disease
+Vladimir Lenin: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Bolsheviks: Agent, Organisation, PoliticalParty
+Russia: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Vladimir Lenin->Politician  
+Bolsheviks->PoliticalParty  
+Russia->Country
+
+# Entities from chunk_065.txt
+Russia: Place, Location, PopulatedPlace, Country
+Bolsheviks: Agent, Organisation, PoliticalParty
+Trieste: Place, Location, PopulatedPlace, City, Settlement
+Ypres: Place, Location, PopulatedPlace, Settlement
+
+LLM best matches
+Russia->Country  
+Bolsheviks->PoliticalParty  
+Trieste->City
+
+# Entities from chunk_066.txt
+Low Countries: Settlement, Country
+Ypres: Place, Location, PopulatedPlace, Settlement
+Parapet: ArchitecturalStructure
+
+LLM best matches
+Low Countries->Country  
+Ypres->Settlement  
+Parapet->ArchitecturalStructure
+
+# Entities from chunk_067.txt
+Battle of Passchendaele: SocietalEvent, Event, MilitaryConflict
+Ypres: Place, Location, PopulatedPlace, Settlement
+Barrage (artillery): Software
+
+LLM best matches
+Battle of Passchendaele->MilitaryConflict  
+Ypres->PopulatedPlace
+
+# Entities from chunk_068.txt
+Battle of Broodseinde: SocietalEvent, Event, MilitaryConflict
+Battle of Passchendaele: SocietalEvent, Event, MilitaryConflict
+
+LLM best matches
+Battle of Broodseinde->MilitaryConflict  
+Battle of Passchendaele->MilitaryConflict
+
+# Entities from chunk_069.txt
+Riga: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Riga->City
+
+# Entities from chunk_070.txt
+Banjšice Plateau: 
+Italy: Person, Place, Location, PopulatedPlace, Country
+Otto von Below: Person, MilitaryPerson
+
+LLM best matches
+Italy->Country  
+Otto von Below->MilitaryPerson
+
+# Entities from chunk_071.txt
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+
+LLM best matches
+Central Powers->PoliticalParty
+
+# Entities from chunk_072.txt
+Battle of Caporetto: SocietalEvent, Event, MilitaryConflict
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Tobruk: Place, Location, PopulatedPlace, City, MilitaryConflict, Settlement
+Cairo: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Battle of Caporetto->MilitaryConflict  
+Tobruk->City  
+Cairo->City
+
+# Entities from chunk_073.txt
+Battles of the Isonzo: SocietalEvent, Event, MilitaryConflict, TelevisionShow
+Battle of Caporetto: SocietalEvent, Event, MilitaryConflict
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+Otto von Below: Person, MilitaryPerson
+
+LLM best matches
+Battles of the Isonzo->MilitaryConflict  
+Battle of Caporetto->MilitaryConflict  
+Otto von Below->MilitaryPerson
+
+# Entities from chunk_074.txt
+Vladimir Lenin: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Sea of Marmara: Place, Location, NaturalPlace, Sea, BodyOfWater, Lake
+Russian Revolution: MilitaryConflict
+Saint Petersburg: Place, Location, Region, PopulatedPlace, AdministrativeRegion, City
+
+LLM best matches
+Vladimir Lenin->Politician  
+Sea of Marmara->Sea  
+Saint Petersburg->City
+
+# Entities from chunk_075.txt
+
+
+LLM best matches
+Brest-Litovsk->Place  
+Lenin->Person  
+Ukraine->Place
+
+# Entities from chunk_076.txt
+Germany: Person, Place, Location, PopulatedPlace, Country
+Russia: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Germany->Country  
+Russia->Country
+
+# Entities from chunk_077.txt
+Otto von Below: Person, MilitaryPerson
+Battle of Passchendaele: SocietalEvent, Event, MilitaryConflict
+
+LLM best matches
+Otto von Below->MilitaryPerson  
+Battle of Passchendaele->MilitaryConflict
+
+# Entities from chunk_078.txt
+Battle of Passchendaele: SocietalEvent, Event, MilitaryConflict
+Infantry: MilitaryUnit, Organisation
+Non-commissioned officer: Person, PersonFunction
+Belgium: Place, Location, PopulatedPlace, Country
+Fifth Army (United Kingdom): Agent, MilitaryUnit, Organisation
+
+LLM best matches
+Battle of Passchendaele->MilitaryConflict  
+Infantry->MilitaryUnit  
+Non-commissioned officer->PersonFunction  
+Belgium->Country  
+Fifth Army (United Kingdom)->MilitaryUnit
+
+# Entities from chunk_079.txt
+Arras: Place, Location, PopulatedPlace, Settlement
+La Fère: 
+Amiens: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+Arras->Settlement  
+Amiens->City
+
+# Entities from chunk_080.txt
+Doullens: Place, Location, PopulatedPlace, Settlement
+Ypres: Place, Location, PopulatedPlace, Settlement
+Battle of Passchendaele: SocietalEvent, Event, MilitaryConflict
+Defence in depth: VideoGame
+
+LLM best matches
+Doullens->Settlement  
+Ypres->Settlement  
+Battle of Passchendaele->MilitaryConflict
+
+# Entities from chunk_081.txt
+Allies of World War II: Place, Location, PopulatedPlace, MusicFestival, Country
+Austria-Hungary: Place, Location, PopulatedPlace, Organisation, Country
+Battle of the Lys (1940): SocietalEvent, Event, MilitaryConflict
+Aisne: Place, Location, PopulatedPlace, Settlement
+
+LLM best matches
+Austria-Hungary->Country
+
+# Entities from chunk_082.txt
+Allies of World War II: Place, Location, PopulatedPlace, MusicFestival, Country
+Reims: Place, Location, PopulatedPlace, Settlement
+Counter-battery fire: Sport
+Chemin des Dames: MilitaryConflict
+
+LLM best matches
+Reims->Settlement
+
+# Entities from chunk_083.txt
+Antwerp: Place, Location, PopulatedPlace, City, Settlement
+Amiens: Place, Location, PopulatedPlace, City, Settlement
+Lewis gun: Device, Weapon
+Brusilov offensive: SocietalEvent, Event, MilitaryConflict
+Spa, Belgium: Place, Location, PopulatedPlace, Settlement
+
+LLM best matches
+Antwerp->City  
+Amiens->City  
+Lewis gun->Weapon  
+Brusilov offensive->MilitaryConflict  
+Spa, Belgium->Settlement
+
+# Entities from chunk_084.txt
+Arras: Place, Location, PopulatedPlace, Settlement
+Siegfried Line: MilitaryConflict
+Ypres: Place, Location, PopulatedPlace, Settlement
+Counter-battery fire: Sport
+
+LLM best matches
+Arras->Settlement  
+Ypres->Settlement
+
+# Entities from chunk_085.txt
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+Caucasus: Settlement, Country
+
+LLM best matches
+Ottoman Empire->Country
+
+# Entities from chunk_086.txt
+Fourteen Points of Jinnah: 
+Germany: Person, Place, Location, PopulatedPlace, Country
+Anschluss: MilitaryConflict
+Battle of Vittorio Veneto: SocietalEvent, Event, MilitaryConflict
+
+LLM best matches
+Germany->Country  
+Battle of Vittorio Veneto->MilitaryConflict
+
+# Entities from chunk_087.txt
+Matthias Erzberger: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Philipp Scheidemann: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Adolf Hitler: Person, Animal, Eukaryote, Species, Politician, Country
+
+LLM best matches
+Matthias Erzberger->Politician  
+Philipp Scheidemann->Politician  
+Adolf Hitler->Politician
+
+# Entities from chunk_088.txt
+High Seas Fleet: Agent, MilitaryUnit, Organisation, Train
+Kiel mutiny: MilitaryConflict
+Lübeck: 
+Wilhelmshaven: Place, Location, PopulatedPlace, Settlement, Town
+Munich: Place, Location, PopulatedPlace, City, Settlement
+
+LLM best matches
+High Seas Fleet->MilitaryUnit  
+Kiel mutiny->MilitaryConflict  
+Wilhelmshaven->Town  
+Munich->City
+
+# Entities from chunk_089.txt
+William Orpen: Person, Animal, Eukaryote, Species, Artist
+League of Nations: Place, Location, PopulatedPlace, Organisation, Country
+
+LLM best matches
+William Orpen->Artist  
+League of Nations->Organisation
+
+# Entities from chunk_090.txt
+World War II: SocietalEvent, MilitaryPerson, Event, MilitaryConflict
+Germany: Person, Place, Location, PopulatedPlace, Country
+
+LLM best matches
+World War II->MilitaryConflict  
+Germany->Country
+
+# Entities from chunk_091.txt
+World War I: SocietalEvent, Event, MilitaryConflict
+First Punic War: SocietalEvent, Event, MilitaryConflict
+Mein Kampf: Work, Book, WrittenWork
+
+LLM best matches
+World War I->MilitaryConflict  
+First Punic War->MilitaryConflict  
+Mein Kampf->Book
+
+# Entities from chunk_092.txt
+
+
+LLM best matches
+World War I->MilitaryConflict
+
+# Entities from chunk_093.txt
+London: Place, Location, PopulatedPlace, City, Settlement
+World War I: SocietalEvent, Event, MilitaryConflict
+Winston Churchill: Person, Animal, Eukaryote, Species, Politician, OfficeHolder
+Robert Graves: Person, Animal, Eukaryote, Species, Writer
+
+LLM best matches
+London->City  
+World War I->MilitaryConflict  
+Winston Churchill->Politician  
+Robert Graves->Writer
+
+# Entities from chunk_094.txt
+London: Place, Location, PopulatedPlace, City, Settlement
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+World War I: SocietalEvent, Event, MilitaryConflict
+Central Powers: Place, Location, PopulatedPlace, PoliticalParty, Country
+
+LLM best matches
+London->City  
+Ottoman Empire->Country  
+World War I->MilitaryConflict
+
+# Entities from chunk_095.txt
+Eileen Wilks: Person, Animal, Eukaryote, Species, Writer
+Russia: Place, Location, PopulatedPlace, Country
+Russian Revolution: MilitaryConflict
+London: Place, Location, PopulatedPlace, City, Settlement
+Moscow: Place, Location, PopulatedPlace, City, Settlement
+Germany: Person, Place, Location, PopulatedPlace, Country
+Paris: Place, Location, PopulatedPlace, City, Settlement
+Ottoman Empire: Place, Location, PopulatedPlace, Country
+
+LLM best matches
+Eileen Wilks->Person  
+Russia->Country  
+London->City  
+Moscow->City  
+Germany->Country  
+Paris->City
+
+# Entities from chunk_096.txt
+Malcolm Muggeridge: Person, Animal, Eukaryote, Species
+C. S. Forester: 
+
+LLM best matches
+Malcolm Muggeridge->Person
+

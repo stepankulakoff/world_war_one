@@ -1,0 +1,33 @@
+You will be given two inputs:
+
+1. text  — the full passage to analyze  
+2. types — one or more lines in the form  
+       Entity: label1, label2, label3, …
+
+Your task:
+• For each Entity in types pick exactly one label from its candidate list that best matches the overall theme of text.  
+• If none of the labels apply for a given Entity, skip that line entirely.  
+• Output one line per chosen entity, in the exact format:
+      
+      Entity->Label
+
+• Do not output anything else—no quotes, no extra words, no punctuation beyond the arrow.
+
+Example:
+
+text 
+World War I was a global conflict …
+
+types 
+World War I: SocietalEvent, Event, MilitaryConflict  
+Archduke Franz Ferdinand: Person, Animal, Royalty  
+Berlin: Place, Location, PopulatedPlace, City, Settlement
+
+→
+
+World War I->MilitaryConflict  
+Archduke Franz Ferdinand->Person  
+Berlin->City
+
+<<<TEXT>>>
+<<<TYPES>>>
